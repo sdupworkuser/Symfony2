@@ -1,0 +1,15 @@
+{% extends 'AcmeDemoBundle::layout.html.twig' %}
+
+{% block title %}Symfony - Welcome{% endblock %}
+
+{% block content_header '' %}
+
+{% block content %}
+
+    <ul id="navigation">
+        {% for product in products %}
+            <li><a href="{{ path('acme_store_show', { 'id': product.id }) }}">{{ product.name }}</a></li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}

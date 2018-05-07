@@ -1,0 +1,1 @@
+This is an open source blog, which allows any registered user to write the article on him favorite topic. The article are reviewed and published by the admin if it is suitable for the blog. The user can also sell the products like books, magzines or anything which is related to the article wrote by him.
